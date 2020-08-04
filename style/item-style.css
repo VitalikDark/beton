@@ -1,0 +1,226 @@
+.navigation_wrapper {
+	padding-top: 24px;
+	max-width: 1086px;
+	width: 100%;
+	margin: auto;
+	text-align: right;
+	font-family: ProximaNovaRegular;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.navigation_wrapper a {
+	text-decoration: none;
+}
+
+.main-link-nav {
+	color: #000;
+}
+
+.link-product {
+	color: #CB3431;
+}
+
+/*info*/
+
+#about-product {
+	max-width: 1086px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.left-product-content {
+	max-width: 812px;
+	width: 100%;
+}
+
+.title__buy-product  {
+	color: #000;
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+.left-product-content p {
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.title-prefences {
+	padding-left: 90px;
+	color: #000;
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+.list__prefences li {
+	list-style-type: square;
+  color: red; 
+ }
+.list__prefences li span {
+  color: #000;
+ }
+
+.list__prefences {
+	padding-left: 90px;
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+/*table-price==================*/
+
+#table-prices {
+	padding-top: 54px;
+	max-width: 1144px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.title-price {
+	font-family: ProximaNovaRegular;
+	font-size: 36px;
+	line-height: 28px;
+	color: #CB3431;
+	padding-bottom: 13px;
+}
+
+.title-price-desc { 
+	font-family: ProximaNovaRegular;
+	font-size: 18px;
+	line-height: 28px;
+	color: #CB3431;
+	padding-bottom: 8px;
+}
+
+.titles-table-group {
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+ 	font-weight: bold;	
+	max-width: 512px;
+	width: 100%;
+	display: flex;
+	text-align: left;
+	justify-content: space-between;
+
+}
+
+/*table__*/
+.row-tables {
+	display: flex;
+	justify-content: space-between;
+	width: 100%
+}
+.col {
+	display: flex;
+	flex-direction: column;
+}
+table {
+font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+ font-weight: bold;
+ width: 552px;
+}
+
+td, th {
+	width: 24px;
+  text-align: left;
+  padding: 0px;
+
+}
+
+tr:nth-child(even) {
+ color: #CB3431;
+}
+
+tr:nth-child(odd) {
+  color: #000;
+}
+tr:nth-child(1) {
+  color: #000;
+  border-bottom: 2px solid #CB3431;
+}
+.title-group {
+ border-bottom: 2px solid #CB3431;
+ padding-bottom: 10px;
+}
+
+
+
+/*table*/
+.download-box {
+	margin-top: 60px;
+	width: 164px;
+  margin-left: auto;
+}
+
+.download-box svg{
+	display: block;
+    margin-left: auto;
+    margin-right: 66px;
+ }
+ .download-title a{
+ 	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+ 	color: #000; text-decoration: none;
+ }
+ .download-title {
+ 	text-align: center;
+  border-bottom: 2px solid #CB3431;
+ }
+
+
+
+#prosess-development {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	max-width: 1086px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.title__prosess {
+	color: #000;
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#prosess-development p {
+	font-family: ProximaNovaRegular;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.titles-table-group {font-size: 14px;}
+  table {font-size: 11px;}
+  tr, td {
+  	padding: 0;
+  	margin: 0;
+  }
+  table {width: 90%;}
+  .title-prefences, .list__prefences {padding-left: 10px;}
+  .left-product-content {
+  	width: 90%;
+  	margin: 0 auto;
+  }
+  #table-prices{width: 90%;}
+  #prosess-development {width: 90%;}
+}
+
+@media screen and (max-width: 1200px) { 
+	.row-tables {
+	flex-direction: column;
+	margin: 0 auto;
+	}
+}
+
